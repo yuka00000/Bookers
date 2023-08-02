@@ -1,0 +1,79 @@
+// Place all the styles related to the lists controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+.new-book h2 {
+  margin: 16.185px 0;
+}
+
+.new-book p {
+  margin: 0;
+}
+
+.new-book .submit, .editing-book .body  {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.new-book .title, .editing-book .title {
+  margin-bottom: 10px;
+}
+
+.new-book .body, .editing-book .body {
+  margin-bottom: 10px;
+}
+
+
+th {
+  padding: 1px 1px 5px 1px;
+}
+
+td {
+  padding: 1px 5px 7px 5px;
+}
+
+.editing-book p {
+  margin: 0;
+}
+
+.editing-book .submit {
+  display: block;
+}
+
+.show {
+  color: black;
+}
+
+.edit {
+  color: black;
+}
+
+.destroy {
+  color: black;
+}
+
+.back {
+  color: black;
+}
+
+.show:hover {
+   color: white;
+   background-color: black;
+}
+
+.edit:hover {
+   color: white;
+   background-color: black;
+}
+
+.destroy:hover {
+   color: white;
+   background-color: black;
+}
+
+.back:hover {
+   color: white;
+   background-color: black;
+}
+
